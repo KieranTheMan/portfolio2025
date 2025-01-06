@@ -70,7 +70,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">EMAIL</p>
               <p className="contact-email">
-                <a href="mailto:hello@biogi.com">kieran9fowler@outlook.com</a>
+                <a href="mailto:kieran9fowler@outlook.com">Kieran Fowler</a>
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">LinkedIn</p>
               <p className="contact-email">
-                <a>....</a>
+                <a href="https://www.linkedin.com/in/kieran-fowler/">LinkedIn</a>
               </p>
             </div>
           </div> 
@@ -173,7 +173,7 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe> */}
         <div className="footer">
-          © 2024 | All rights reserved by Kieran Fowler
+          © 2025 | All rights reserved by Kieran Fowler
           
         </div>
       </section>
