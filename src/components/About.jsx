@@ -30,14 +30,17 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          Hi, my name is <span>Jessica Biogi</span> and I began using WordPress
-          when first began. I've spent most of my waking hours for the last ten
-          years designing, programming and operating WordPress sites go beyond
-          with exclusive designer. Apart from this I love to travel, mentor
-          designers, review design portfolios & read books on everything related
-          to design. I have also given design talks in various educational
-          institutions. So I love creating creative content, and you can find
-          most of my works here.
+          I’m a full-stack web developer exprencied in web development with the
+          ability to quickly learn and applying new technologies to complete
+          projects successfully. Passionate about problem-solving and emerging
+          technologies, I approach every task with curiosity and dedication,
+          whether optimizing existing systems or starting fresh. Currently, I’m
+          exploring AI development, focusing on integrating large language
+          models into full-stack environments. I'm organized and team-oriented, I
+          value communication, respect, and collaboration as keys to success. I
+          thrive in Agile teams, aiming to grow as a developer becoming a Lead
+          developer while leveraging innovative technologies to create impactful
+          solutions.
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
@@ -45,7 +48,7 @@ const AboutSection = () => {
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Nationality</p>
-          <p className="about-detail-info">United Kingdom</p>
+          <p className="about-detail-info">British, UK</p>
         </div>
         {/* <div className="about-detail-main">
           <p className="about-detail">Phone</p>
@@ -62,7 +65,7 @@ const AboutSection = () => {
             className="about-detail-info email"
             onClick="location.href='mailto:hello@biogi.com'"
           >
-            kieran9michael@gmail.com
+            kieran9fowler@outlook.com
           </p>
         </div>
         <div className="about-detail-main">
