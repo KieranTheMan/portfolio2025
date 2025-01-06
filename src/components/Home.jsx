@@ -1,37 +1,19 @@
-import React, { useEffect, useRef, useState } from "react";
-import ProfileImg from "../assets/images/profile-img.png";
+import React, { useEffect, useState } from "react";
+import ProfileImg from "../assets/images/aiKieran.png";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
-import BehanceSvg from "../assets/images/svg/behance-svg.svg";
-import DribleSvg from "../assets/images/svg/drribale-svg.svg";
-import MediumSvg from "../assets/images/svg/medium-svg.svg";
 import HomeSvg from "../assets/images/svg/home-svg.svg";
 import AboutSvg from "../assets/images/svg/about-svg.svg";
 import ResumeSvg from "../assets/images/svg/resume-svg.svg";
-import ServicesSvg from "../assets/images/svg/services-svg.svg";
 import PortfolioSvg from "../assets/images/svg/portfolio-svg.svg";
-import PricingSvg from "../assets/images/svg/pricing-svg.svg";
-import BlogSvg from "../assets/images/svg/blog-svg.svg";
+import LinkedinSvg from "../assets/images/svg/linkedin.svg";
+import gitHubSvg from "../assets/images/svg/github.svg";
 import ContactSvg from "../assets/images/svg/contact-svg.svg";
-import clientImg1 from "../assets/images/clients-img1.jpg";
-import clientImg2 from "../assets/images/clients-img2.jpg";
-import clientImg3 from "../assets/images/clients-img3.jpg";
-import clientImg4 from "../assets/images/clients-img4.jpg";
-import JessicaMainImg from "../assets/images/jessica-main-img.png";
-import CircularImg from "../assets/images/circular-img.png";
-import FlowerImg from "../assets/images/flower.png";
-import BrandLogo1 from "../assets/images/brand-logo1.png";
-import BrandLogo2 from "../assets/images/brand-logo2.png";
-import BrandLogo3 from "../assets/images/brand-logo3.png";
-import BrandLogo4 from "../assets/images/brand-logo4.png";
-import BrandLogo5 from "../assets/images/brand-logo5.png";
-import BrandLogo6 from "../assets/images/brand-logo6.png";
-import BrandLogo7 from "../assets/images/brand-logo7.png";
-import BrandLogo8 from "../assets/images/brand-logo8.png";
+import KieranMainImg from "../assets/images/aiKieran3.png";
+import CircularImg from "../assets/images/spinnadev.png";
+
 import AboutSection from "./About";
 import Resume from "./Resume";
-import Services from "./Services";
 import Portfolio from "./Portfolio";
-import Pricing from "./Pricing";
 //import Blog from "./Blog";
 import Contact from "./Contact";
 import $ from "jquery";
@@ -40,10 +22,8 @@ import { Link } from "react-router-dom";
 const Home = () => {
   //Text
   const firstTexts = ["Developer", "Husband", "Dad to 4 Kids"];
-  const secondTexts = [
-    "Full Stack Developer",
-  ];
-  const intervalTime = 600;
+  const secondTexts = ["Full Stack Developer", "AI GPT Developer"];
+  const intervalTime = 800;
 
   const [firstTextIndex, setFirstTextIndex] = useState(0);
   const [secondTextIndex, setSecondTextIndex] = useState(0);
@@ -54,7 +34,7 @@ const Home = () => {
     }, intervalTime * 3);
 
     return () => clearTimeout(firstTextTimeout);
-  }, [firstTextIndex]);
+  }, [firstTextIndex, firstTexts.length]);
 
   useEffect(() => {
     const secondTextTimeout = setTimeout(() => {
@@ -62,7 +42,7 @@ const Home = () => {
     }, intervalTime * 3);
 
     return () => clearTimeout(secondTextTimeout);
-  }, [secondTextIndex]);
+  }, [secondTextIndex, secondTexts.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -71,7 +51,7 @@ const Home = () => {
     }, intervalTime * 7);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [firstTexts.length, secondTexts.length]);
 
   // Logo marquee
   useEffect(() => {
@@ -148,20 +128,34 @@ const Home = () => {
       {/* <!-- ====================================== Side Menu ===================================== --> */}
       <div className="side-menu">
         <div className="profile-img-main">
-          <img className="zoom_in" src={ProfileImg} alt="profile-img" />
+          <img
+            className="zoom_in"
+            src={ProfileImg}
+            alt="profile-img"
+            style={{ borderRadius: "20px" }}
+          />
           <h1 className="fade_up">
             Kieran <span>Fowler</span>
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:kieran9fowler@outlook.com" className="profile-media-icons">
+            <Link
+              to="mailto:kieran9fowler@outlook.com"
+              className="profile-media-icons"
+            >
               <img src={EmailSvg} alt="email-svg" />
             </Link>
-            <Link to="https://www.behance.net" className="profile-media-icons">
-              <img src={BehanceSvg} alt="linkedin-svg" />
+            <Link
+              to="https://www.linkedin.com/in/kieran-fowler/"
+              className="profile-media-icons"
+            >
+              <img src={LinkedinSvg} alt="linkedin-svg" />
             </Link>
-            <Link to="https://dribbble.com" className="profile-media-icons">
-              <img src={DribleSvg} alt="gethub-svg" />
+            <Link
+              to="https://github.com/KieranTheMan"
+              className="profile-media-icons"
+            >
+              <img src={gitHubSvg} alt="gethub-svg" />
             </Link>
           </div>
         </div>
@@ -282,10 +276,10 @@ const Home = () => {
             </li>
           </ul>
         </div>
-         <div>
+        <div>
           <div id="wrap">
             <Link
-              to={'#'}
+              to={"#"}
               rel="noreferrer"
               target="_blank"
               className="btn-slide"
@@ -309,7 +303,7 @@ const Home = () => {
               <span className="title-hover">Click Here</span>
             </Link>{" "}
           </div>
-        </div> 
+        </div>
       </div>
 
       {/* <!-- ====================================== Side Menu End ===================================== --> */}
@@ -325,31 +319,32 @@ const Home = () => {
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-                We appreciate your trust greatly our clients choose us & our
-                products because they know we are the best.
+                "Technoly progresses so fast you have to learn, unlearn and
+                relearn as your developing your master pieace"
               </p>
               <div className="section-one-btns-main fade_down">
-                <div className={`active-menu-action ${
-                activeLink === "portfolio" ? "active" : ""
-              }`}
-            >
-              <a
-                className="btn-hover"
-                href="#portfolio"
-                onClick={(e) => handleClick(e, "portfolio")}
-              >
-              khvkhvka</a>
-                    
-                </div>
                 <div className="wrapper">
-                  <Link className="btn-hover btn-hover2" to="#">
+                  <Link
+                    className="btn-hover "
+                    to="#portfolio"
+                    onClick={(e) => handleClick(e, "portfolio")}
+                  >
+                    See Work
+                  </Link>
+                </div>
+
+                <div className="wrapper">
+                  <Link
+                    className="btn-hover btn-hover2"
+                    to="#contact"
+                    onClick={(e) => handleClick(e, "contact")}
+                  >
                     Contact Me
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-xxl-6 col-lg-6 position-relative">
-              <img className="flower" src={FlowerImg} alt="flower" />
               <img
                 className="circular-img"
                 src={CircularImg}
@@ -357,10 +352,9 @@ const Home = () => {
               />
               <img
                 className="jessica-main-img zoom_in"
-                src={JessicaMainImg}
-                alt="jessica-main-img"
+                src={KieranMainImg}
+                alt="Kieran-main-img"
               />
-       
             </div>
           </div>
         </section>
@@ -445,7 +439,7 @@ const Home = () => {
         <Resume />
         {/* <!-- ====================================== Section Education Experience End ===================================== --> */}
         {/* <!-- ====================================== Section Services ===================================== --> */}
-        
+
         {/* <!-- ====================================== Section Services ===================================== --> */}
         {/* <!-- ====================================== Section Portfolio ===================================== --> */}
         <Portfolio />
@@ -454,7 +448,7 @@ const Home = () => {
 
         {/* <!-- ====================================== Section Pricing ===================================== --> */}
         {/* <!-- ====================================== Section Blogs ===================================== --> */}
-        
+
         {/* <!-- ====================================== Section Blogs ===================================== --> */}
         {/* <!-- ====================================== Section Contact ===================================== --> */}
         <Contact />
