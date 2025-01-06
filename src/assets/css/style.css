@@ -468,6 +468,7 @@ h1 span {
 .jessica-main-img {
     max-width: 100%;
     padding-top: 60px;
+    border-radius: 15%;
 }
 
 .section-one-btns-main {
@@ -546,8 +547,8 @@ h1 span {
 
 .circular-img {
     position: absolute;
-    top: 0;
-    left: -50px;
+    top: -85px;
+    left: -135px;
     animation: rotation infinite 9s linear;
 }
 
@@ -817,6 +818,7 @@ h1 span {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
+    margin-bottom: 2%;
     transition: all 0.3s;
 }
 
@@ -880,8 +882,6 @@ h1 span {
 
 .design-skills-img-main {
     border-radius: 40px;
-    border: 2px solid var(--8, #00CC97);
-    background: rgba(0, 204, 151, 0.10);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -890,41 +890,53 @@ h1 span {
     width: 100%;
     height: 80px;
 }
-
-.photoshop {
-    border: 2px solid #31A8FF;
-    background: rgba(49, 168, 255, 0.10);
+.css {
+    border: 2px solid var(--8, #cc6d00);
+    background: rgba(236, 195, 9, 0.1);
+    
 }
 
-.photoshop-text p:nth-of-type(2) {
-    color: var(--1, #31A8FF) !important;
+.css-text p:nth-of-type(2) {
+    color: var(--1, #17c2dc) !important;
+    padding-right:7px ;
 }
 
-.adobe-xd {
-    border: 2px solid #FF61F6;
-    background: rgba(255, 97, 246, 0.10);
+.javascript {
+    border: 2px solid #b9c115;
+    background: rgba(217, 217, 10, 0.1);
 }
 
-.adobe-xd-text p:nth-of-type(2) {
-    color: var(--1, #FF61F6) !important;
+.javascript-text p:nth-of-type(2) {
+    color: var(--1, #bbdc17) !important;
 }
 
-.sketch {
-    border: 2px solid #FFDB59;
+.react-xd {
+    border: 2px solid hwb(207 49% 5%);
+    background: hsla(242, 100%, 50%, 0.1);
+    
+}
+
+.react-xd-text p:nth-of-type(2) {
+    color: var(--1, hsl(204, 100%, 64%)) !important;
+}
+
+.express {
+    border: 2px solid #7bff60;
     background: rgba(255, 219, 89, 0.10);
 }
 
-.sketch-text p:nth-of-type(2) {
+.express-text p:nth-of-type(2) {
     color: var(--1, #FFDB59) !important;
 }
 
-.invision {
-    border: 2px solid #FF3366;
-    background: rgba(255, 51, 102, 0.10);
+.python {
+    border: 2px solid #598eff;
+    background: rgba(51, 75, 255, 0.1);
 }
 
-.invision-text p:nth-of-type(2) {
-    color: var(--1, #FF3366) !important;
+.python-text p:nth-of-type(2) {
+    color: var(--1, #ffeb33) !important;
+    padding-right: 2px;
 }
 
 .skill-counter-main p:first-of-type {
@@ -1569,12 +1581,16 @@ h1 span {
 }
 
 /*-----------------------[ 17.Testimonials Section CSS ]------------------------*/
+.testimonials-section {
+    margin-top: 48px;
+}
+
 .testament {
     color: var(--14, #909090);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    margin: 30px 0;
+    margin: 30px 0px;
 }
 
 .colan-icon-img-main {
@@ -1585,7 +1601,7 @@ h1 span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .avix {
@@ -1593,6 +1609,7 @@ h1 span {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    text-align: left;
 }
 
 .client-name {
