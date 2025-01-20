@@ -1,9 +1,8 @@
 import React from "react";
-import CloseSvg from "../assets/images/svg/colan-icon.svg";
 import PopUpImg from "../assets/images/pop-up-img1.jpg";
-import PopUpImg2 from "../assets/images/pop-up-img2.jpg";
+//import PopUpImg2 from "../assets/images/pop-up-img2.jpg";
 
-const Popup = ({ isVisible, onClose }) => {
+const Popup2 = ({ isVisible, onClose }) => {
   return (
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
@@ -43,16 +42,39 @@ const Popup = ({ isVisible, onClose }) => {
             </g>
           </svg>{" "}
         </a>
-        <p className="corpo">AI GEN Application</p>
+        <p className="corpo">AI Cool Art Gen</p>
         <div className="corporate_main">
-          <div className="cuberto_main">
+          {/* <div className="cuberto_main">
             <p className="created_by">Created By:</p>
             <p className="cuberto">Kieran</p>
-          </div>
-          <div className="cuberto_main">
+          </div> */}
+          {/* <div className="cuberto_main">
             <p className="created_by">Date:</p>
             <p className="cuberto">20/12/2024</p>
+          </div> */}
+          <div className="cuberto_main">
+            <p className="created_by">Project Link:</p>
+            <a
+              className="cuberto"
+              href="https://coolartgen.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cool Art Gen
+            </a>
           </div>
+          <div className="cuberto_main">
+            <p className="created_by">Git Hub Code:</p>
+            <a
+              className="cuberto"
+              href="https://github.com/KieranTheMan/AiimageGen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              App Repo
+            </a>
+          </div>
+
           {/* <div className="cuberto_main">
             <p className="created_by">Client:</p>
             <p className="cuberto">Rayan Patrick</p>
@@ -70,9 +92,9 @@ const Popup = ({ isVisible, onClose }) => {
           faucibus sed quis in eget. Quis cursus eu in sit cras sit elementum
           nibh sit.
         </p>
-     </div>
+      </div>
     </div>
   );
 };
 
-export default Popup;
+export default Popup2;
