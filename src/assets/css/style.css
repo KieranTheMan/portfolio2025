@@ -1368,8 +1368,20 @@ h1 span {
     line-height: 25px;
     font-weight: 400;
     color: #909090;
-    padding-top: 30px;
+    padding-top: 15px;
+    text-align: left;
 }
+
+
+.features {
+    padding-top: 1px;
+}
+
+.indent{
+    padding-left: 20px;
+}
+
+
 
 .pop-up-img-section2 img {
     max-width: 100%;
