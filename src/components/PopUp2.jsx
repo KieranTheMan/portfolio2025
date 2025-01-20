@@ -42,7 +42,9 @@ const Popup2 = ({ isVisible, onClose }) => {
             </g>
           </svg>{" "}
         </a>
-        <p className="corpo">AI Cool Art Gen</p>
+        <p className="corpo">
+          AI Cool Art Gen<h6>Note: Server Loading Speed is Slow</h6>
+        </p>
         <div className="corporate_main">
           {/* <div className="cuberto_main">
             <p className="created_by">Created By:</p>
@@ -85,12 +87,106 @@ const Popup2 = ({ isVisible, onClose }) => {
           </div> */}
         </div>
         <p className="Ornare">
-          Ornare sagittis blandit imperdiet cursus risus. Amet proin cras mattis
-          arcu pellentesque lorem sagittis. Mauris facilisis id est duis eget
-          sed cras curabitur faucibus. Lectus eu eu quis amet. Ultrices morbi
-          bibendum risus nisi sapien id ut egestas. Et fermentum fermentum
-          faucibus sed quis in eget. Quis cursus eu in sit cras sit elementum
-          nibh sit.
+          AI image generation has recently fascinated me, especially the process
+          of creating visually stunning images from user prompts. To explore
+          this, I built an AI-powered image generation application using the
+          <b> OpenAI DALL·E API</b>. This project integrates advanced AI
+          technologies with my existing MERN stack skillset to deliver a fully
+          functional and interactive web application.
+        </p>
+        <p className="Ornare">
+          The application enables users to input text prompts, which are
+          processed by the DALL·E API to generate unique AI-created images.
+          These images are then saved securely to <b>Cloudinary for storage</b>,
+          while the prompt and image URLs are stored in a{" "}
+          <b>MongoDB database</b>. This allows users to revisit and view their
+          generated creations later.
+        </p>
+
+        <p className="Ornare features">
+          <span>&#9733;</span> <b>KEY FEATURES</b>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span>
+          <b> Prompt-based AI Image Generation: </b>
+          Users can input any creative prompt, and the{" "}
+          <span className="indent">
+            app generates corresponding AI-driven images.
+          </span>
+        </p>
+
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Community Page:</b> A section where all
+          generated images are displayed for users to{" "}
+          <span className="indent">explore and get inspired.</span>
+        </p>
+
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Cloud Storage Integration: </b>
+          Images are uploaded to Cloudinary, ensuring fast and{" "}
+          <span className="indent">reliable delivery across the web.</span>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Responsive Design:</b> The front-end interface
+          is designed with responsiveness in mind,{" "}
+          <span className="indent">
+            making it accessible on both desktop and mobile devices.
+          </span>
+        </p>
+        <p className="Ornare">
+          <span>&#9733;</span> <b>TECH STACK</b>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>React.js, HTML, Tailwind CSS:</b> Used to
+          design and style the front end of the{" "}
+          <span className="indent">
+            application. Tailwind CSS ensures a clean and modern UI while mobile
+            optimized.
+          </span>
+          <br />
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Express.js/Node.js:</b> Set up the server to
+          handle API routes, including interactions with{" "}
+          <span className="indent">DALL·E and database connections.</span>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>OpenAI DALL·E API:</b> Core technology for
+          generating images based on user prompts. <br />
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Cloudinary:</b> Used to store and manage user
+          generated images for seamless delivery.
+          <br />
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>MongoDB:</b> Serves as the database for
+          storing user inputs prompts, names and the{" "}
+          <span className="indent">generated image URLs.</span>
+        </p>
+        <p className="Ornare">
+          <span>&#9733;</span>
+          <b> CHALLENGES</b>
+        </p>
+        <p className="Ornare features">
+          <b>Image Display with Flexbox:</b> Initially faced difficulties with
+          correctly aligning and displaying images on the community page. Solved
+          this by tweaking CSS flexbox properties and using Tailwind’s utility
+          classes.
+        </p>
+        <p className="Ornare features">
+          <b>Secure Database Connections:</b> Ensuring the MongoDB connection
+          used secure API keys.
+        </p>
+        <p className="Ornare features">
+          <b>Fetching AI Responses:</b> Parsing and saving images from the
+          DALL·E API response.
+        </p>
+
+        <p className="Ornare features">
+          <b>Performance:</b> As this application is currently hosted on a
+          free-tier server, there might be slight delays when loading data from
+          the database, especially on the community page.
         </p>
       </div>
     </div>
