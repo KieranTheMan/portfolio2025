@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import ContentImg from "../assets/images/content-img.png";
 import Popup1 from "./PopUp1";
 import Popup2 from "./PopUp2";
