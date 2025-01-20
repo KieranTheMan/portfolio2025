@@ -57,7 +57,10 @@ const Popup3 = ({ isVisible, onClose }) => {
             <p className="created_by">Project Link:</p>
             <a
               className="cuberto"
-              href="https://kierantheman.github.io/RockPaperScissorsGame/"  target="_blank" rel="noopener noreferrer">
+              href="https://kierantheman.github.io/RockPaperScissorsGame/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Rock Papper Scissors
             </a>
           </div>
@@ -82,12 +85,72 @@ const Popup3 = ({ isVisible, onClose }) => {
           </div> */}
         </div>
         <p className="Ornare">
-          Ornare sagittis blandit imperdiet cursus risus. Amet proin cras mattis
-          arcu pellentesque lorem sagittis. Mauris facilisis id est duis eget
-          sed cras curabitur faucibus. Lectus eu eu quis amet. Ultrices morbi
-          bibendum risus nisi sapien id ut egestas. Et fermentum fermentum
-          faucibus sed quis in eget. Quis cursus eu in sit cras sit elementum
-          nibh sit.
+          One of the first projects I built using vanilla JavaScript was a
+          classic Rock, Paper, Scissors game. The goal of this project was to
+          deepen my understanding of JavaScript fundamentals, including
+          higher-order functions and DOM manipulation. This project was a fun
+          way to practice programming logic while enhancing my problem-solving
+          skills and improving my ability to interact with the DOM.
+        </p>
+        <p className="Ornare features">
+          The game allows players to compete against the computer by selecting
+          their choice of rock, paper, or scissors, with the computer's choice
+          being generated randomly. The result win, lose, or draw is displayed
+          dynamically, along with the current score.
+        </p>
+        <br />
+
+        <p className="Ornare features">
+          <span>&#9733;</span> <b>KEY FEATURES</b>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Interactive Gameplay:</b> Users can choose
+          rock, paper, or scissors, and the game  <span className="indent">calculates and displays the
+          outcome in real-time.</span>
+        </p>
+
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Dynamic Score Tracking:</b> Keeps track of the
+          player's score, providing instant feedback  <span className="indent">after each round.</span>
+        </p>
+
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Clean and Simple UI:</b> Designed with
+          usability in mind, ensuring a seamless user  <span className="indent">experience.</span>
+        </p>
+
+        <p className="Ornare">
+          <span>&#9733;</span> <b>TECH STACK</b>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>Vanilla JavaScript:</b>
+          Used to implement the game logic, including generating random  <span className="indent">computer
+          choices, comparing results, and updating the score.</span>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>HTML:</b>
+          Provides the structure for the website, allowing access to DOM
+          elements for  <span className="indent">interactivity.</span>
+        </p>
+        <p className="Ornare features">
+          <span>&#9737;</span> <b>CSS:</b> Styled the game interface, including
+          layout and the placement of images.
+        </p>
+        <p className="Ornare">
+          <span>&#9733;</span> <b>CHALLENGES</b>
+        </p>
+        <p className="Ornare features">
+          <b>Function Data Flow:</b> I initially struggled with getting
+          functions to correctly pass data between the player's choice, the
+          computer's choice, and the result logic. By breaking down the logic
+          into smaller, reusable functions and testing them independently, I was
+          able to solve this issue.
+        </p>
+        <p className="Ornare features">
+          <b>Image Placement with CSS:</b> Placing images correctly on
+          the page was challenging at first, especially ensuring they were
+          responsive and aligned. This was resolved by experimenting with CSS
+          properties like flexbox.
         </p>
       </div>
     </div>
