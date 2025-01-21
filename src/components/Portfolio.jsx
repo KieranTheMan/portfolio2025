@@ -1,5 +1,8 @@
 import React, { useState} from "react";
 import ContentImg from "../assets/images/content-img.png";
+import MovieImg from "../assets/images/moviecover.png"
+import RPCImg from "../assets/images/rpc.png"
+import CoolArtImg from "../assets/images/coolart.png"
 import Popup1 from "./PopUp1";
 import Popup2 from "./PopUp2";
 import Popup3 from "./PopUp3";
@@ -60,7 +63,7 @@ const Portfolio = () => {
               className="image-container popup-btn zoom_in"
               onClick={handlePopup1Open}
             >
-              <img src={ContentImg} alt="content-img" />
+              <img src={MovieImg} alt="content-img" width={"312px"} height={"250px"}/>
             </div>
             <p className="Corporate zoom_in">AI Movie Selekt</p>
           </div>
@@ -69,7 +72,7 @@ const Portfolio = () => {
               className="image-container popup-btn zoom_in"
               onClick={handlePopup2Open}
             >
-              <img src={ContentImg} alt="content-img" />
+              <img src={CoolArtImg} alt="content-img" width={"312px"} height={"250px"}/>
             </div>
             <p className="Corporate zoom_in">AI Cool Art Gen</p>
           </div>
@@ -78,7 +81,7 @@ const Portfolio = () => {
               className="image-container popup-btn zoom_in"
               onClick={handlePopup3Open}
             >
-              <img src={ContentImg} alt="content-img" />
+              <img src={RPCImg} alt="content-img" width={"312px"} height={"250px"} />
             </div>
             <p className="Corporate zoom_in">Rock Papper Scissors</p>
           </div>
