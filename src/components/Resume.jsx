@@ -15,8 +15,8 @@ import "../../node_modules/slick-carousel/slick/slick-theme.css";
 
 const Resume = () => {
   const settings = {
-    infinite: true,
-    slidesToShow: 2,
+    infinite: false,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
     arrows: false,
@@ -110,17 +110,9 @@ const Resume = () => {
                   delivered by Just IT, covering the following areas:
                 </p>
                 <p className="cursus">
-                  <span>&#9733;</span>
-                  <b> System Development Lifecycle & Methodologies:</b> Learned
-                  SDLC phases, Agile, and Waterfall methodologies to manage and
-                  document software projects.
-                </p>
-                <p className="cursus">
-                  {" "}
-                  <span>&#9733;</span> <b>HTML, JavaScript, and CSS:</b>{" "}
-                  Developed responsive web pages using HTML for structure, CSS
-                  for styling, and JavaScript for interactivity. Built projects
-                  applying modern design principles and interactive features.
+                  <span>&#9733;</span> <b>Python:</b> Gained proficiency in
+                  Python, focusing on programming fundamentals and
+                  object-oriented design.
                 </p>
                 <p className="cursus">
                   {" "}
@@ -128,10 +120,18 @@ const Resume = () => {
                   implemented relational databases using SQL for data
                   manipulation and management.
                 </p>
+               
                 <p className="cursus">
-                  <span>&#9733;</span> <b>Python:</b> Gained proficiency in
-                  Python, focusing on programming fundamentals and
-                  object-oriented design.
+                  {" "}
+                  <span>&#9733;</span> <b>HTML, JavaScript, and CSS:</b>{" "}
+                  Developed responsive web pages using HTML for structure, CSS
+                  for styling, and JavaScript for interactivity.
+                </p>
+                <p className="cursus">
+                  <span>&#9733;</span>
+                  <b> System Development Lifecycle & Methodologies:</b> Learned
+                  SDLC phases, Agile, and Waterfall methodologies to manage and
+                  document software projects.
                 </p>
               </div>
             </div>
@@ -203,7 +203,8 @@ const Resume = () => {
                 </p>
                 <p className="cursus">
                   <span>&#9733;</span> <b>Database Design: </b>Studied
-                  relational databases, MySQL and SQL for creation and management.
+                  relational databases, MySQL and SQL for creation and
+                  management.
                 </p>
                 <p className="cursus">
                   <span>&#9733;</span> <b>Software Development:</b> Acquired
@@ -231,16 +232,58 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">SENIOR FULL-STACK DEVELOPER (REMOTE)</p>
+                <p className="bachelor">FULL-STACK DEVELOPER (REMOTE)</p>
                 <p className="cursus university">
-                  US-New York, RevenueHive, <br />
+                  US-New York, RevenueHive (Start-Up), <br />
                   Contract: Collaboration, 2024 - Current
                 </p>
                 <p className="cursus">
-                  Revenue hive is a tech start up ............Ipsum erat duis
-                  leo lectus tellus neque dictumst. Dignissim tortor quis nisl
-                  mi lectus. Massa facilisis ac eget fermentum vitae. Dictum
-                  rutrum sed.
+                  <span>&#9733;</span>
+                  <b> Project Leadership:</b>
+                  <br /> Transitioned the company's static website to a
+                  React-based single-page application integrated with Django.
+                  Installed React and Django, leveraging existing code from
+                  RevenuHive’s GitHub for backend integration.
+                </p>
+
+                <p className="cursus">
+                  <span>&#9733;</span>
+                  <b> Development Highlights:</b>
+                  <br /> Built components using HTML, CSS, React.js, and
+                  libraries, ensuring seamless functionality with Django.
+                  Implemented React Router for efficient navigation with a main
+                  route handling multiple pages. Connected React to Django using
+                  Axios, establishing robust server-side endpoints. Developed a
+                  secure authentication system, including user creation,
+                  password reset, CSRF, and token protection. Created a post
+                  component with full CRUD functionality, enabling posts and
+                  comments linked to the server. Acquired expertise in Django,
+                  Python, and related libraries to enhance server-side and
+                  assist other developers.
+                </p>
+                <p className="cursus">
+                  <span>&#9733;</span>
+                  <b> Team Collaboration</b>
+                  <br />
+                  Provided React.js training and conducted weekly updates to
+                  enhance team proficiency. Informed team members of development
+                  changes via email, JIRA, and Slack for efficient communication
+                  and task management.
+                </p>
+                <p className="cursus">
+                  <span>&#9733;</span>
+                  <b> Public Engagement & Knowledge Sharing:</b>
+                  <br />
+                  Presented platform updates and future features at a Revenue
+                  Hives business event. Shared technical expertise through
+                  documentation and internal talks.
+                </p>
+                <p className="cursus">
+                  <span>&#9733;</span>
+                  <b> Problem Solving & Innovation</b>
+                  <br /> Diagnosed and resolved complex technical issues.
+                  Proposed innovative solutions to enhance functionality and
+                  adopt new technologies.
                 </p>
               </div>
             </div>
@@ -346,29 +389,19 @@ const Resume = () => {
               <img src={ColanIcon} alt="colan-icon" />
             </div>
             <p className="avix">
-              Thanks to Avix's game-changing website design and development, our
-              online presence has reached new heights. Our website has never
-              looked better.Thanks to Avix's game-changing website design and
-              development, our online presence has reached new heights. Our
-              website has never looked better.
+            &quot;Since Kieran joined us the week of July 22nd, 2024. His
+              contributions have been instrumental in advancing Revenue Hive,
+              from building the front-end code base to integrating it seamlessly
+              with the Django backend. His recommendation to use Supabase and
+              the work that he has done on the serializer architecture have been
+              invaluable, not to mention the effort he has put into refining our
+              existing codebase, it’s truly taken our platform to the next
+              level.&quot;
             </p>
-            <p className="client-name">Alba </p>
+            <p className="client-name">- Alba Garalina </p>
             <p className="kello">RevenueHive</p>
           </div>
-          <div>
-            <div className="colan-icon-img-main">
-              <img src={ColanIcon} alt="colan-icon" />
-            </div>
-            <p className="avix">
-              Auxa has been a game-changer for our online presence. Their
-              website design and development team took our vision and turned it
-              into a stunning reality. The results speak for themselves - our
-              website has never looked better.
-            </p>
-
-            <p className="client-name">Marilina Harless</p>
-            <p className="kello">RevenueHive</p>
-          </div>
+           
         </Slider>
       </section>
       {/* <!-- ====================================== Section Testimonials ===================================== --> */}
