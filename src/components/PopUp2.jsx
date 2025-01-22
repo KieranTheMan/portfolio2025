@@ -1,13 +1,12 @@
 import React from "react";
-import PopUpImg from "../assets/images/pop-up-img1.jpg";
-//import PopUpImg2 from "../assets/images/pop-up-img2.jpg";
+import CoolArtSImg from "../assets/images/coolArtSshot.png";
 
 const Popup2 = ({ isVisible, onClose }) => {
   return (
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
-        <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="#" onClick={onClose}>
+        <img className="pop-up-img1" src={CoolArtSImg} alt="pop-up-img1" width={'1000px'} height={'400px'} />
+        <button className="close-btn popup-close" onClick={onClose}>
           <svg
             width="40px"
             height="40px"
@@ -41,7 +40,7 @@ const Popup2 = ({ isVisible, onClose }) => {
               ></path>
             </g>
           </svg>{" "}
-        </a>
+        </button>
         <p className="corpo">
           AI Cool Art Gen<h6>Note: Server Loading Speed is Slow</h6>
         </p>
