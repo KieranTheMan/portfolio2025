@@ -169,7 +169,7 @@ const Resume = () => {
                   Designed game levels emphasizing player engagement, flow, and
                   narrative integration. Created detailed game documentation,
                   including design briefs, mechanics descriptions, and
-                  development roadmaps.
+                  development road maps.
                 </p>
               </div>
             </div>
@@ -235,13 +235,14 @@ const Resume = () => {
                 <p className="bachelor">FULL-STACK DEVELOPER (REMOTE)</p>
                 <p className="cursus university">
                   US-New York, RevenueHive (Start-Up), <br />
-                  Contract: Collaboration, 2024 - Current
+                  Contract: Collaboration, 
+                  07/2024 - Current
                 </p>
                 <p className="cursus">
                   <span>&#9733;</span>
                   <b> Project Leadership:</b>
                   <br /> Transitioned the company's static website to a
-                  React-based single-page application integrated with Django.
+                  React-based single page application integrated with Django.
                   Installed React and Django, leveraging existing code from
                   RevenuHive’s GitHub for backend integration.
                 </p>
