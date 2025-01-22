@@ -870,7 +870,7 @@ h1 span {
 
 /*-----------------------[ 10.design-skill-section CSS ]------------------------*/
 .design-skill-section {
-    margin-top: 46px;
+    margin-top: 2vh;
 }
 
 .design-skill-sub-section {
@@ -1595,6 +1595,7 @@ h1 span {
 /*-----------------------[ 17.Testimonials Section CSS ]------------------------*/
 .testimonials-section {
     margin-top: 48px;
+    
 }
 
 .testament {
@@ -1604,6 +1605,7 @@ h1 span {
     line-height: 24px;
     margin: 30px 0px;
 }
+
 
 .colan-icon-img-main {
     width: 64px;
@@ -1621,7 +1623,10 @@ h1 span {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    text-align: left;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 30px;
+    
 }
 
 .client-name {
@@ -1629,22 +1634,26 @@ h1 span {
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 .kello {
     color: var(--14, #909090);
     font-size: 16px;
     font-weight: 500;
+    padding-left: 20px;
+    
+    
 }
-
+/*original setting 0.5 */
 .slick-slide {
-    margin: 0 0.5px;
+    margin: 0.0.5px;
 }
 
 .slick-dots {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
     margin-top: 30px;
     align-items: baseline;
