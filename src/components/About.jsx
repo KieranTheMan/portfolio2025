@@ -30,17 +30,14 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          I’m a full-stack web developer exprencied in web development with the
+          I’m a Full-Stack Engineer experienced in web development with the
           ability to quickly learn and applying new technologies to complete
           projects successfully. Passionate about problem-solving and emerging
           technologies, I approach every task with curiosity and dedication,
           whether optimizing existing systems or starting fresh. Currently, I’m
           exploring AI development, focusing on integrating large language
           models into full-stack environments. I'm organized and team-oriented, I
-          value communication, respect, and collaboration as keys to success. I
-          thrive in Agile teams, aiming to grow as a developer becoming a Lead
-          developer while leveraging innovative technologies to create impactful
-          solutions.
+          value communication, respect, and collaboration as keys to success.
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
@@ -69,8 +66,12 @@ const AboutSection = () => {
           </p>
         </div>
         <div className="about-detail-main">
-          <p className="about-detail">Experience</p>
-          <p className="about-detail-info">1+ years</p>
+          <p className="about-detail">Work Experience</p>
+          <p className="about-detail-info">7+ Months</p>
+        </div>
+        <div className="about-detail-main">
+          <p className="about-detail">Technical Experience</p>
+          <p className="about-detail-info">5+ Years</p>
         </div>
         {/* <div className="about-detail-main">
           <p className="about-detail">Freelance</p>
