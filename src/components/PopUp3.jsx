@@ -1,14 +1,12 @@
 import React from "react";
-import CloseSvg from "../assets/images/svg/colan-icon.svg";
-import PopUpImg from "../assets/images/pop-up-img1.jpg";
-import PopUpImg2 from "../assets/images/pop-up-img2.jpg";
+import RPCscreenImg from "../assets/images/rpcscreen.png";
 
 const Popup3 = ({ isVisible, onClose }) => {
   return (
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
-        <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="#" onClick={onClose}>
+        <img className="pop-up-img1" src={RPCscreenImg} alt="pop-up-img1" width={'1000px'} height={'400px'}/>
+        <a className="close-btn popup-close" href="#" aria-label="Trigger Action" onClick={onClose}>
           <svg
             width="40px"
             height="40px"
@@ -89,7 +87,7 @@ const Popup3 = ({ isVisible, onClose }) => {
           classic Rock, Paper, Scissors game. The goal of this project was to
           deepen my understanding of JavaScript fundamentals, including
           higher-order functions and DOM manipulation. This project was a fun
-          way to practice programming logic while enhancing my problem-solving
+          way to practice programming logic while enhancing my problem solving
           skills and improving my ability to interact with the DOM.
         </p>
         <p className="Ornare features">
@@ -106,7 +104,7 @@ const Popup3 = ({ isVisible, onClose }) => {
         <p className="Ornare features">
           <span>&#9737;</span> <b>Interactive Gameplay:</b> Users can choose
           rock, paper, or scissors, and the game  <span className="indent">calculates and displays the
-          outcome in real-time.</span>
+          outcome in real time.</span>
         </p>
 
         <p className="Ornare features">
