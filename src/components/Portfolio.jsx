@@ -1,5 +1,4 @@
 import React, { useState} from "react";
-import ContentImg from "../assets/images/content-img.png";
 import MovieImg from "../assets/images/moviecover.png"
 import RPCImg from "../assets/images/rpc.png"
 import CoolArtImg from "../assets/images/coolart.png"
