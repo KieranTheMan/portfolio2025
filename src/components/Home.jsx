@@ -10,7 +10,6 @@ import gitHubSvg from "../assets/images/svg/github.svg";
 import ContactSvg from "../assets/images/svg/contact-svg.svg";
 import KieranMainImg from "../assets/images/aiKieran3.png";
 import CircularImg from "../assets/images/spinnaeng.png";
-
 import AboutSection from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
@@ -22,7 +21,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   //Text
   const firstTexts = ["Software Engineer"];
-  const secondTexts = ["Full Stack Engineer"];
+  const secondTexts = ["Full-Stack Engineer"];
   const intervalTime = 800;
 
   const [firstTextIndex, setFirstTextIndex] = useState(0);
