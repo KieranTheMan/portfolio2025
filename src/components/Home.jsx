@@ -279,7 +279,7 @@ const Home = () => {
         <div>
           <div id="wrap">
             <Link
-              to={"#"}
+              to={"/"}
               rel="noreferrer"
               target="_blank"
               className="btn-slide"
