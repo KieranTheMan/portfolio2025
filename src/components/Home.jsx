@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   //Text
   const firstTexts = ["Software Engineer"];
-  const secondTexts = ["Full Stack Engineer", "Generative AI Engineer"];
+  const secondTexts = ["Full Stack Engineer"];
   const intervalTime = 800;
 
   const [firstTextIndex, setFirstTextIndex] = useState(0);
