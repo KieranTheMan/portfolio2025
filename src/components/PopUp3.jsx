@@ -6,7 +6,7 @@ const Popup3 = ({ isVisible, onClose }) => {
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
         <img className="pop-up-img1" src={RPCscreenImg} alt="pop-up-img1" width={'1000px'} height={'400px'}/>
-        <a className="close-btn popup-close" href="#" aria-label="Trigger Action" onClick={onClose}>
+        <button className="close-btn popup-close" onClick={onClose}>
           <svg
             width="40px"
             height="40px"
@@ -40,7 +40,7 @@ const Popup3 = ({ isVisible, onClose }) => {
               ></path>
             </g>
           </svg>{" "}
-        </a>
+        </button>
         <p className="corpo">Rock Papper Scissors Game</p>
         <div className="corporate_main">
           {/* <div className="cuberto_main">
