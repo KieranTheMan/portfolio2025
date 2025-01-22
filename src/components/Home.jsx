@@ -9,7 +9,7 @@ import LinkedinSvg from "../assets/images/svg/linkedin.svg";
 import gitHubSvg from "../assets/images/svg/github.svg";
 import ContactSvg from "../assets/images/svg/contact-svg.svg";
 import KieranMainImg from "../assets/images/aiKieran3.png";
-import CircularImg from "../assets/images/spinnadev.png";
+import CircularImg from "../assets/images/spinnaeng.png";
 
 import AboutSection from "./About";
 import Resume from "./Resume";
@@ -21,8 +21,8 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 const Home = () => {
   //Text
-  const firstTexts = ["Developer", "Husband", "Dad to 4 Kids"];
-  const secondTexts = ["Full Stack Developer", "AI GPT Developer"];
+  const firstTexts = ["Software Engineer"];
+  const secondTexts = ["Full Stack Engineer", "Generative AI Engineer"];
   const intervalTime = 800;
 
   const [firstTextIndex, setFirstTextIndex] = useState(0);
@@ -319,8 +319,8 @@ const Home = () => {
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-                "Technoly progresses so fast you have to learn, unlearn and
-                relearn as your developing your master pieace"
+                "Technology progresses so fast you have to learn, unlearn and
+                relearn as your developing your masterpiece"
               </p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
