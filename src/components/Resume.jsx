@@ -250,17 +250,30 @@ const Resume = () => {
                 <p className="cursus">
                   <span>&#9733;</span>
                   <b> Development Highlights:</b>
-                  <br /> Built components using HTML, CSS, React.js, and
-                  libraries, ensuring seamless functionality with Django.
-                  Implemented React Router for efficient navigation with a main
-                  route handling multiple pages. Connected React to Django using
-                  Axios, establishing robust server-side endpoints. Developed a
-                  secure authentication system, including user creation,
-                  password reset, CSRF, and token protection. Created a post
-                  component with full CRUD functionality, enabling posts and
-                  comments linked to the server. Acquired expertise in Django,
+                  <p className="cursus">
+                  <span>&#9737;</span> Built components using HTML, CSS, React.js, and
+                    libraries, ensuring seamless functionality with Django.
+                  </p>
+                  <p className="cursus">
+                  <span>&#9737;</span> Implemented React Router for efficient navigation with a main
+                  route handling multiple pages. 
+                  </p>
+                  <p className="cursus">
+                  <span>&#9737;</span> Connected React to Django using Axios, establishing robust server-side endpoints.
+                  </p>
+                  <p className="cursus">
+                  <span>&#9737;</span> Developed a secure authentication system, including user creation,
+                  password reset, CSRF, and token protection. 
+                  </p>
+                  <p className="cursus">
+                  <span>&#9737;</span> Created a post component with full CRUD functionality, enabling posts and
+                  comments linked to the server. 
+                  </p>
+                  <p className="cursus">
+                  <span>&#9737;</span> Acquired expertise in Django,
                   Python, and related libraries to enhance server-side and
                   assist other developers.
+                  </p>
                 </p>
                 <p className="cursus">
                   <span>&#9733;</span>

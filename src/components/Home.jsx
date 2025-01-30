@@ -319,7 +319,7 @@ const Home = () => {
               </h3>
               <p className="best fade_down">
                 "Technology progresses so fast you have to learn, unlearn and
-                relearn as your developing your masterpiece"
+                relearn as you're developing your masterpiece"
               </p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">

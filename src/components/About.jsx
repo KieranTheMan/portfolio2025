@@ -31,7 +31,7 @@ const AboutSection = () => {
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
           I’m a Full-Stack Engineer experienced in web development with the
-          ability to quickly learn and applying new technologies to complete
+          ability to quickly learn and apply new technologies to complete
           projects successfully. Passionate about problem-solving and emerging
           technologies, I approach every task with curiosity and dedication,
           whether optimizing existing systems or starting fresh. Currently, I’m
@@ -56,15 +56,6 @@ const AboutSection = () => {
             (+1) 234 567 8899
           </p>
         </div> */}
-        <div className="about-detail-main">
-          <p className="about-detail">Email</p>
-          <p
-            className="about-detail-info email"
-            onClick="location.href='mailto:hello@biogi.com'"
-          >
-            kieran9fowler@outlook.com
-          </p>
-        </div>
         <div className="about-detail-main">
           <p className="about-detail">Work Experience</p>
           <p className="about-detail-info">7+ Months</p>

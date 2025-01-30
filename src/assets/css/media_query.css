@@ -634,6 +634,9 @@
 }
 
 @media(max-width:500px) {
+    .About-section {
+        margin-top: -2%
+    }
 
     .slick-list {
         height: 600px !important;
